@@ -35,7 +35,7 @@ public class Main implements Serializable {
       oos.close();
       fos.close();
     } catch (IOException e) {
-      System.out.print("co loi xay ra"+e);
+      System.out.print("co loi xay ra:"+e);
     }
   }
 }
